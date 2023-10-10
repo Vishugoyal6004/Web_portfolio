@@ -2,7 +2,7 @@ import React from 'react';
 
 //Assets and Css
 import { Body, ButtonBox, Left, Right } from './Styled';
-import person from '../../person.png';
+import person from '../../Assets/homeicon.svg';
 
 //Components
 import SideMenu from '../../Components/Sidemenu';

@@ -71,7 +71,7 @@ align-items:center;
 justify-content:center;
 
 img{
-    height:90%;
+    height:50%;
 }
 
 @media only screen and (max-width: 900px) {
