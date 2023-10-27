@@ -1,6 +1,6 @@
 import {styled , css} from "styled-components";
 
-export const Skillbody=styled.div`
+export const Workbody=styled.div`
 height:100vh;
 width:calc(100% - 70px);
 display:flex;
@@ -99,7 +99,8 @@ img{
 
 &:hover{
     transform: skew(-12deg,0deg) scale(1.1);
-    z-index: 20;
+    box-shadow: 0px 15px 30px 0px white;
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -109,7 +110,7 @@ img{
 
  &:hover{
     transform: skew(-5deg,0deg) scale(1.1);
-    z-index: 20;
+    box-shadow: 0px 15px 30px 0px white;
 }
 }
 

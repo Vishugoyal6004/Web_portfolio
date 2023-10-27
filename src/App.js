@@ -4,6 +4,8 @@ import './App.css';
 import Home from './Modules/Home'
 import About from './Modules/About'
 import Work from './Modules/Work'
+import Skill from './Modules/Skill'
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
     <About/>
     </div>
     <Work/>
+    <Skill/>
     </>
   );
 }
