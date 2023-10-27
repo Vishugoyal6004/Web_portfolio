@@ -14,11 +14,11 @@ const Index = () => {
     return (
         <Sidebody>
            <Listicons>
-            <li><IoHome/></li>
-            <li><IoMdPerson/></li>
-            <li><IoMdBriefcase/></li>
-            <li><BsFillPenFill/></li>
-            <li><IoCall/></li>
+            <li><a href='#Home'><IoHome/></a></li>
+            <li><a href='#About'><IoMdPerson/></a></li>
+            <li><a href='#Work'><IoMdBriefcase/></a></li>
+            <li><a href='#Skill'><BsFillPenFill/></a></li>
+            <li><a href='#About'><IoCall/></a></li>
            </Listicons>
         </Sidebody>
     );

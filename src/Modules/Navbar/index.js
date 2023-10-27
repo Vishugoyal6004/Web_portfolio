@@ -30,6 +30,11 @@ font-size:1.125rem;
 cursor:pointer;
 }
 
+a{
+    color:white;
+    text-decoration:none;
+}
+
 @media only screen and (max-width: 700px) {
     width:100%;
     li{
@@ -43,11 +48,11 @@ const Index = () => {
     return (
         <Navbody>
            <Navlisticons>
-            <li>About</li>
-            <li>Work</li>
+            <li><a href='#About'>About</a></li>
+            <li><a href='#Work'>Work</a></li>
             <li>LOGO</li>
-            <li>Skill</li>
-            <li>Contact</li>
+            <li><a href='#Skill'>Skill</a></li>
+            <li><a href='#Contact'>Contact</a></li>
             </Navlisticons> 
         </Navbody>
     );
